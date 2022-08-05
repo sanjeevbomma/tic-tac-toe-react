@@ -66,6 +66,12 @@
   font-size: 16px;
   text-transform: uppercase;
 }
+h2{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 .cursorPointer {
   cursor: pointer;
@@ -99,4 +105,19 @@
 
 .black {
   background-color: #555555;
+}
+
+.blueText {
+  color: #008CBA;
+}
+
+@media screen and (max-width: 860px) {
+  .Parent {
+    margin: auto 15%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Parent {
+    margin: auto auto;
+  }
 }

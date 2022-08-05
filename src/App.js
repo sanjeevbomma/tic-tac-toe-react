@@ -62,6 +62,9 @@ function App() {
 
   return (
     <div className='Parent'>
+      <div className="Grid paddingHor2rem">
+        <h2 className='blueText'>Tic Tac Toe Game in React</h2>
+      </div>
       <div className='Child'>
         <div className="Grid padding2rem">
           {Object.keys(list).map(function (key) {
