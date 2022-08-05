@@ -48,8 +48,8 @@ function App() {
     else if (list['11'] && list['22'] && list['33'] && list['11'] === list['22'] && list['11'] === list['33']) {
       setGameStatus('Game Winner is  ' + list['33'])
     }
-    else if (list['11'] && list['22'] && list['33'] && list['11'] === list['22'] && list['11'] === list['33']) {
-      setGameStatus('Game Winner is  ' + list['33'])
+    else if (list['13'] && list['22'] && list['31'] && list['13'] === list['22'] && list['31'] === list['22']) {
+      setGameStatus('Game Winner is  ' + list['22'])
     }
     else if (list['11'] && list['12'] && list['13'] && list['21'] && list['22'] && list['23'] && list['31'] && list['32'] && list['33']) {
       setGameStatus('Game Draw');
